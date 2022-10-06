@@ -21,7 +21,7 @@ const App = () => {
 
     <div id="main">
       <h4>Search</h4>
-      <input onChange={(event)=>{
+      <input id="search-input" onChange={(event)=>{
         setInputVal(event.target.value);
       }} />
       <h4>Results</h4>
